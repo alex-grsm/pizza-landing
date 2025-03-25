@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat:wght@100..900&display=swap");
+
+:root {
+    // --font-family: sans;
+
+    --index: calc(1vw + 1vh);
+    // --transition: 1.5s cubic-bezier(.05, .5, 0, 1);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+
+    --header-height: 3.5rem;
+
+    /*========== Colors ==========*/
+    /*Color mode HSL(hue, saturation, lightness)*/
+    --first-color: hsl(353, 93%, 50%);
+    --first-color-alt: hsl(353, 93%, 43%);
+    --first-color-dark: hsl(353, 50%, 15%);
+    --title-color: hsl(353, 48%, 12%);
+    --text-color: hsl(353, 16%, 32%);
+    --text-color-light: hsl(353, 16%, 48%);
+    --white-color: hsl(24, 86%, 90%);
+    --body-color: hsl(24, 86%, 88%);
+    --container-color: hsl(24, 86%, 92%);
+    --shadow-small-img: drop-shadow(0 4px 16px hsla(353, 100%, 8%, 0.2));
+    --shadow-big-img: drop-shadow(0 8px 24px hsla(353, 100%, 8%, 0.2));
+
+    /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --body-font: "Montserrat", sans-serif;
+    --second-font: "Carter One", system-ui;
+    --biggest-font-size: 2.5rem;
+    --bigger-font-size: 1.5rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+}
+
+/*========== Responsive typography ==========*/
+@media screen and (min-width: 1150px) {
+    :root {
+        --biggest-font-size: 4.25rem;
+        --bigger-font-size: 2.5rem;
+        --h1-font-size: 2.25rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: 0.875rem;
+        --smaller-font-size: 0.813rem;
+    }
+}

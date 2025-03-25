@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="robots" content="noindex, nofollow" />
+        <title><%= title %></title>
+        <link rel="stylesheet" href="/src/assets/scss/main.scss" />
+    </head>
+
+    <body>
+        <!--==================== HEADER ====================-->
+        <%- include('src/includes/header.ejs') %>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <%- include('src/includes/home.ejs') %>
+
+            <!--==================== ABOUT ====================-->
+            <%- include('src/includes/about.ejs') %>
+
+            <!--==================== POPULAR ====================-->
+            <%- include('src/includes/popular.ejs') %>
+
+            <!--==================== RECIPE ====================-->
+            <%- include('src/includes/recipe.ejs') %>
+
+            <!--==================== PRODUCTS ====================-->
+            <%- include('src/includes/products.ejs') %>
+
+            <!--==================== CONTACT ====================-->
+            <%- include('src/includes/contact.ejs') %>
+        </main>
+        <!--==================== FOOTER ====================-->
+        <%- include('src/includes/footer.ejs') %>
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#home" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+
+        <script type="module" src="/src/assets/js/main.js"></script>
+    </body>
+</html>
