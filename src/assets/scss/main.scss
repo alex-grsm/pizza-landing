@@ -4,7 +4,8 @@
 @use 'fonts';
 @use 'vars';
 @use 'style';
-// @use 'components/custom-cursor';
+@use 'components/cart';
+@use 'components/notifications';
 
 @import 'remixicon/fonts/remixicon.css';
 // @import 'swiper/swiper-bundle.css';

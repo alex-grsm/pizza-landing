@@ -21,8 +21,8 @@ const scrollAnimations = () => {
     ej.reveal(`.about__img, .recipe__img, .contact__image`, { origin: 'left' });
     ej.reveal(`.contact__sticker`, { interval: 100, rotate: { z: -30 } });
     
-    ej.reveal(`.products__card`, { interval: 100 });
-    ej.reveal(`.products__img`, { interval: 100 });
+    ej.reveal(`.products .products__card`, { interval: 100 });
+    ej.reveal(`.products .products__img`, { interval: 100 });
 };
 
 export default scrollAnimations;

@@ -3,6 +3,7 @@ import path from 'path';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 import htmlMinifier from 'vite-plugin-html-minifier-terser';
 import { ViteEjsPlugin } from 'vite-plugin-ejs';
+import { viteStaticCopy } from 'vite-plugin-static-copy'
 
 export default defineConfig({
     base: './',
@@ -69,6 +70,14 @@ export default defineConfig({
         htmlMinifier({
             minify: true,
         }),
+        viteStaticCopy({
+            targets: [
+                {
+                    src: 'src/data/products.json',
+                    dest: 'data'
+                }
+            ]
+        })
     ],
     server: {
         port: 3000,

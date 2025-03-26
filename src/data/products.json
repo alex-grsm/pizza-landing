@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Vegetarian Pizza",
+        "price": 15,
+        "image": "product-1.png"
+    },
+    {
+        "id": 2,
+        "name": "Pepperoni Pizza",
+        "price": 10,
+        "image": "product-2.png"
+    },
+    {
+        "id": 3,
+        "name": "Margherita Pizza",
+        "price": 12,
+        "image": "product-3.png"
+    },
+    {
+        "id": 4,
+        "name": "Mushroom Pizza",
+        "price": 17,
+        "image": "product-4.png"
+    },
+    {
+        "id": 5,
+        "name": "Italian Pizza",
+        "price": 10,
+        "image": "product-5.png"
+    },
+    {
+        "id": 6,
+        "name": "Global Pizza",
+        "price": 20,
+        "image": "product-3.png"
+    }
+]

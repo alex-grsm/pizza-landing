@@ -41,6 +41,11 @@ h4 {
     display: grid;
     gap: 1.5rem;
 }
+.flex {
+    display: flex;
+    gap: 1.5rem;
+}
+
 
 .section {
     padding-block: 5rem 1rem;
@@ -445,6 +450,7 @@ h4 {
     &__name {
         font-size: var(--h3-font-size);
         margin-bottom: 0.5rem;
+        max-width: min-content;
     }
 
     &__price {
@@ -783,6 +789,12 @@ h4 {
 
     .nav {
         height: calc(var(--header-height) + 2rem);
+    }
+    .nav__logo {
+        font-size: var(--h2-font-size);
+        img {
+            width: 44px;
+        }
     }
     .nav__close,
     .nav__toggle {

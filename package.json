@@ -21,7 +21,8 @@
         "vite": "^6.2.2",
         "vite-plugin-ejs": "^1.7.0",
         "vite-plugin-html-minifier-terser": "^3.8.0",
-        "vite-plugin-image-optimizer": "^1.1.8"
+        "vite-plugin-image-optimizer": "^1.1.8",
+        "vite-plugin-static-copy": "^2.3.0"
     },
     "dependencies": {
         "remixicon": "^4.6.0",
